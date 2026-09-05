@@ -6,7 +6,7 @@ param location string = resourceGroup().location
 @description('コンテナイメージ(例: ghcr.io/<user>/switchbot-mcp:latest)')
 param containerImage string
 
-@description('SwitchBot API のトークン(SwitchBotアプリ > プロフィール > 詳細設定 > 開発者向けオプション で取得)')
+@description('SwitchBot API のトークン(SwitchBotアプリ > プロフィール > 設定 > 開発者向けオプション で取得)')
 @secure()
 param switchbotToken string
 
